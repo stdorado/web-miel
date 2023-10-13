@@ -1,0 +1,225 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyE | Home</title>
+  </head>
+  <body>
+    <nav class="bg-black">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <!-- Mobile menu button-->
+            <button
+              type="button"
+              class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              aria-controls="mobile-menu"
+              aria-expanded="false"
+            >
+              <span class="absolute -inset-0.5"></span>
+              <span class="sr-only">Open main menu</span>
+
+              <svg
+                class="block h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+              <svg
+                class="hidden h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
+          >
+            <div class="flex flex-shrink-0 items-center">
+              <img class="h-8 w-auto" src=".images/abeja.png" alt="MyE" />
+            </div>
+            <div class="hidden sm:ml-6 sm:block">
+              <div class="flex space-x-4">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a
+                  href="index.html"
+                  class="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-[#f2af29] hover:text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+                <a
+                  href="./html/products.html"
+                  class="text-white hover:bg-[#f2af29] hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+                  >Productos</a
+                >
+                <a
+                  href="./html/cart.html"
+                  class="text-white hover:bg-[#f2af29] hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sm:hidden" id="mobile-menu">
+        <div class="space-y-1 px-2 pb-3 pt-2">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+          <a
+          href="index.html"
+          class="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-[#f2af29] hover:text-white"
+          aria-current="page"
+          >Home</a
+        >
+        <a
+          href="./html/products.html"
+          class="text-white hover:bg-[#f2af29] hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+          >Productos</a
+        >
+        <a
+          href="./html/cart.html"
+          class="text-white hover:bg-[#f2af29] hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+          >Contacto</a
+        >
+        </div>
+      </div>
+    </nav>
+    <section
+      class="relative bg-center bg-cover bg-no-repeat py-48 text-white"
+      style="
+        background-image: url('./images/pexels-mostafa-eissa-3424406.jpg');
+        background-size: cover;
+      "
+    >
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-0"
+      ></div>
+      <div
+        class="container relative z-10 mx-auto flex flex-col items-center justify-center"
+      >
+        <h1 class="text-5xl font-extrabold text-center mb-4">
+          ¡Descubre el Sabor Dulce de la Naturaleza!
+        </h1>
+        <a
+          href="./html/products.html"
+          class="bg-orange-400 hover:bg-orange-500 text-white rounded-full px-6 py-3 text-lg font-semibold transition duration-300 ease-in-out"
+        >
+          Explorar Productos
+        </a>
+      </div>
+    </section>
+
+    <section class="py-16 bg-gray-100">
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-center"
+      >
+        <div class="md:w-4/12 md:pr-8">
+          <img
+            src="./images/pexels-alesia-kozik-6072378.jpg"
+            alt="Imagen Formal"
+            class="w-4/5 md:w-3/4 rounded-lg shadow-lg mx-auto mb-4"
+          />
+        </div>
+        <div class="md:w-8/12 md:pl-8 text-center md:text-left">
+          <h2 class="text-4xl font-extrabold text-gray-800 mb-4 leading-tight">
+            Nuestra Pasión por la Calidad
+          </h2>
+          <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+            En nuestra incansable búsqueda de la excelencia, seleccionamos con
+            esmero la miel de las colmenas más puras. <br />
+            Cada gota es un testimonio de nuestra pasión por la calidad y la
+            excelencia. <br />
+            La satisfacción de nuestros clientes es nuestra mayor recompensa.
+          </p>
+          <a
+            href="./html/cart.html"
+            class="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-full px-10 py-4 text-xl font-extrabold transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:ring-4 ring-orange-600 ring-opacity-50 focus:ring-4 focus:ring-orange-600 focus:ring-opacity-50"
+          >
+            ¡Contáctanos Ahora!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-gray-100">
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-center"
+      >
+        <div class="md:w-4/12 md:pr-8">
+          <img
+            src="./images/pexels-eiliv-aceron-10311642.jpg"
+            alt="Imagen de Salud y Nutrición"
+            class="w-4/5 md:w-3/4 rounded-lg shadow-lg mx-auto mb-4"
+          />
+        </div>
+        <div class="md:w-8/12 md:pl-8 text-center md:text-left">
+          <h2 class="text-4xl font-extrabold text-gray-800 mb-4 leading-tight">
+            Salud y Nutrición
+          </h2>
+          <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+            Descubre los innumerables beneficios de la miel para tu salud y
+            bienestar. <br />
+            Nuestra miel, cuidadosamente recolectada de colmenas naturales, está
+            llena de antioxidantes y propiedades nutricionales. <br />
+            Aprovecha los regalos de la naturaleza y mejora tu calidad de vida
+            con nuestra miel.
+          </p>
+          <a
+            href="./html/products.html"
+            class="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-full px-10 py-4 text-xl font-extrabold transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:ring-4 ring-orange-600 ring-opacity-50 focus:ring-4 focus:ring-orange-600 focus:ring-opacity-50"
+          >
+            Ver Productos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black text-white py-12">
+      <div class="container grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="md:col-span-2 ml-6">
+          <h3 class="text-4xl font-extrabold text-white mb-6">¡Contáctanos!</h3>
+          <p class="text-lg text-gray-400 mb-6 leading-relaxed">
+            Estamos comprometidos en proporcionarte la miel más pura y
+            deliciosa. <br />
+            Si deseas obtener más información o realizar pedidos personalizados,
+            no dudes en ponerte en contacto con nosotros.
+          </p>
+          <ul class="mb-6 space-y-2">
+            <li class="flex items-center">
+              <i class="fas fa-map-marker-alt text-orange-500 mr-2"></i>
+              <span class="text-gray-300">Lezama,Buenos Aires</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fas fa-phone text-orange-500 mr-2"></i>
+              <span class="text-gray-300">Teléfono: +54 2241-554204</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fas fa-envelope text-orange-500 mr-2"></i>
+              <span class="text-gray-300">IG : @mielMyE</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
