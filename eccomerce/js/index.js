@@ -90,7 +90,7 @@ let products = [
             <button class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg mt-6 text-base transition-transform transform hover:scale-110 focus:ring-4 ring-orange-500 ring-opacity-50">
             <a
             href="../html/cart.html"
-            class="text-white hover:bg-[#f2af29] hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            class="text-white bg-orange hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >Contacto</a
           >
             </button>
@@ -104,3 +104,6 @@ let products = [
   }
   
   mostrarProductos()
+
+
+  
